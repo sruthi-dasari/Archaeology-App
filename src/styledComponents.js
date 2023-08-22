@@ -128,8 +128,7 @@ export const TransparentButton = styled.button`
 
 export const ImageDisplayContainer = styled.div`
   //   background-image: linear-gradient(to left, #1c1c1b, #575350, #7a7572);
-  background-image: url("https://ibb.co/QfcsTLs");
+  background-image: url("https://ibb.co/hHMBGxC");
   background-size: cover;
   width: 70vw;
-  height: 100vh;
 `;
