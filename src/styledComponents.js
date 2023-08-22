@@ -128,7 +128,15 @@ export const TransparentButton = styled.button`
 
 export const ImageDisplayContainer = styled.div`
   //   background-image: linear-gradient(to left, #1c1c1b, #575350, #7a7572);
-  background-image: url("https://ibb.co/hHMBGxC");
+  background-image: url("https://res.cloudinary.com/my-cloud123/image/upload/v1692708641/img2_dxpnsi.jpg");
   background-size: cover;
   width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const StatueImage = styled.img`
+  height: 400px;
+  width: 400px;
 `;
