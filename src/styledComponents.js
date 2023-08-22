@@ -130,13 +130,21 @@ export const ImageDisplayContainer = styled.div`
   //   background-image: linear-gradient(to left, #1c1c1b, #575350, #7a7572);
   background-image: url("https://res.cloudinary.com/my-cloud123/image/upload/v1692708641/img2_dxpnsi.jpg");
   background-size: cover;
-  width: 70vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: ${(props) => (props.displayDesc ? "100vw" : "70vw")};
+  height: 100vh;
+  display: grid;
 `;
 
 export const StatueImage = styled.img`
   height: 400px;
   width: 400px;
+  justify-self: center;
+`;
+
+export const ArrowButton = styled.button`
+  height: 30px;
+  width: 40px;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-top: 50px;
 `;
