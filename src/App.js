@@ -24,6 +24,7 @@ import {
   ButtonsContainer,
   BrownButton,
   TransparentButton,
+  StatueImage,
 } from "./styledComponents";
 
 class App extends Component {
@@ -81,7 +82,12 @@ class App extends Component {
             <TransparentButton type="button">SOUVENIR</TransparentButton>
           </ButtonsContainer>
         </DescriptionContainer>
-        <ImageDisplayContainer></ImageDisplayContainer>
+        <ImageDisplayContainer>
+          <StatueImage
+            src="https://res.cloudinary.com/my-cloud123/image/upload/v1692708978/img3_h2ewuj.png"
+            alt="statue"
+          />
+        </ImageDisplayContainer>
       </MainContainer>
     );
   }
