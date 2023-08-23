@@ -19,13 +19,14 @@ import {
   DescriptionHeading,
   DescriptionText,
   ReadMoreContainer,
-  ArrowIcon,
+  RightArrowIcon,
   ReadMoreText,
   ButtonsContainer,
   BrownButton,
   TransparentButton,
   StatueImage,
   ArrowButton,
+  LeftArrowIcon,
 } from "./styledComponents";
 
 class App extends Component {
@@ -85,7 +86,7 @@ class App extends Component {
               with earings, wristlets, necklaces and an amulet. The
             </DescriptionText>
             <ReadMoreContainer>
-              <ArrowIcon />
+              <RightArrowIcon />
               <ReadMoreText>Read More</ReadMoreText>
             </ReadMoreContainer>
             <ButtonsContainer>
@@ -98,10 +99,9 @@ class App extends Component {
         )}
 
         <ImageDisplayContainer displayDesc>
-          <ArrowButton
-            type="button"
-            onClick={this.onClickArrowBtn}
-          ></ArrowButton>
+          <ArrowButton type="button" onClick={this.onClickArrowBtn}>
+            <LeftArrowIcon />
+          </ArrowButton>
           <StatueImage
             src="https://res.cloudinary.com/my-cloud123/image/upload/v1692708978/img3_h2ewuj.png"
             alt="statue"
